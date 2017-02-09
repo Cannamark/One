@@ -1,0 +1,45 @@
+{% extends "index.html" %}
+
+{% block content %}
+  <div class="contact-1 subpage-header">
+    <div class="container w-container">
+      <div class="w-form white-contact-form" data-ix="fade-in-on-load-2">
+        <form data-name="Email Form 1" id="wf-form-Email-Form-2" name="wf-form-Email-Form-1">
+          <h2 class="form-title">Have a question? Interested in the Oleo Binder or Infused Powder? Contact us now!</h2>
+          <label class="field-label" for="name-2">Name:</label>
+          <input class="field rounded w-input" data-name="Name 2" id="name-2" maxlength="256" name="name" type="text">
+          <label class="field-label" for="Email-3">Email address:</label>
+          <input class="field rounded w-input" data-name="Email" id="Email-3" maxlength="256" name="Email" required="required" type="email">
+          <label class="field-label" for="Message">Your message:</label>
+          <textarea class="area field rounded w-input" data-name="Message" id="Message" maxlength="5000" name="Message"></textarea>
+          <input class="button w-button" data-wait="Please wait..." type="submit" value="Send Email">
+        </form>
+        <div class="success-message w-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="error-bg w-form-fail">
+          <p>Oops! Something went wrong while submitting the form</p>
+        </div>
+      </div>
+      <div class="contact-info-block-right">
+        <div class="contact-info-block" data-ix="fade-in-on-load-3">
+        <div class="contact-info-small-block">
+            <p class="contact-info-description">Feel free to contact us with any inquiries or questions you might have. If you’re involved in the edible manufacturing industry and are interested in licensing the Oleo process, or using the Infused Powder in your products each out to us. We’d love to hear from you.</p>
+          </div>
+          <div class="contact-info-small-block">
+            <div class="small-contact-info-title">Email Directly</div>
+            <p class="contact-info-description">Sales@cmrkinc.com</p>
+          </div>
+          <div class="contact-info-small-block">
+            <div class="small-contact-info-title">Toll Free</div>
+            <p class="contact-info-description">+1 877-545-6249</p>
+          </div>
+          <div class="contact-info-small-block">
+            <div class="small-contact-info-title">Our Location</div>
+            <p class="contact-info-description">Seattle, Washington</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

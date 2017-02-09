@@ -1,1 +1,54 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
+
+{% block content %}
+<div class="about-3 subpage-header">
+    <div class="container w-container">
+      <h2 class="subpage-title" data-ix="fade-in-on-load">More about Cannamark Inc.</h2>
+      <div class="page-subtitle" data-ix="fade-in-on-load-2">We are a team of passionate people whose goal is to improve the edible manufacturing in ways that help make safer, cleaner, and better products for the consumer.</div>
+    </div>
+</div>
+  <div class="section">
+    <div class="container w-container">
+        <div class="text-row w-row">
+          <div class="text-column w-col w-col-4"><img class="small-icon" sizes="35px" src="../static/images/Hand-Peace-32.png">
+            <div class="text-column-title">Our Culture</div>
+            <p class="small-paragraph">We see the future evolving right before our eyes. This is best seen through the Oleo Life brand. Providing discreet and custom packaging solutions for a wide array of never before seen infused products. The nature of the powdered products promotes an on the go lifestyle. Whether the consumer is out on the town, in the office, or at a festival, all they will need is a bottle of water to enjoy one of our many powdered beverages.</p>
+          </div>
+          <div class="text-column w-col w-col-4"><img class="small-icon" sizes="35px" src="../static/images/Treasure-Map-48.png">
+            <div class="text-column-title">Our Mission</div>
+            <p class="small-paragraph">Our mission at Cannamark Inc. is to provide processors with the ability to produce innovative, safe, high margin products to supply emerging food manufacturers around the globe.</p>
+          </div>
+          <div class="text-column w-col w-col-4"><img class="small-icon" sizes="35px" src="../static/images/People-52.png">
+            <div class="text-column-title">Who We Are</div>
+            <p class="small-paragraph">We are a team of passionate people whose goal is to improve the edible manufacturing in ways that help make safer, cleaner, and better products for the consumer. Our subsidiaries manufacture 'Infused Powder' using our patent pending infusion process in tangent with our proprietary co-polymer. This Infused powder is in turn sold to edible manufacturers. Our Infused Powder products are designed to help maximize your company's potential while providing the consumer with a quality product at low cost.</p>
+          </div>
+      </div>
+      <div class="top-line-block">
+      <div class="container w-container">
+      <div class="cta-row w-row">
+        <div class="cta-column-left w-col w-col-7">
+          <div class="section-title">We'd love to work with you</div>
+          <div class="cta-title subtitle">Looking for an exciting new career in a rapidly growing industry? Cannamark is always looking to hire motivated people who want to make a difference.</div>
+        </div>
+        <div class="cta-column-right w-col w-col-5"><a class="button blue w-button" href="{% url 'careers' %}">See Job Openings</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="top-line-block">
+      <div class="w-row">
+        <div class="text-column-left w-col w-col-6">
+          <div class="full info section-title-wrapper">
+            <h2 class="section-title">Corporate Overview</h2>
+          </div>
+          <p>Cannamark Inc. works to supply the food manufacturing industry with cutting edge products designed with consistency and safety in mind. Our wide array of products spans from automated vaporizer cartridge filling to industrial facility construction. Our Patent pending water soluble powders not only are the way of the future, they are the best way for an new business to become a household name. In addition to our breakthrough encapsulation methods we offer a wide array of powdered products for processors to infuse. Our methodology allows for very efficient final goods processing. We aim to provide custom labeling and packaging solutions to our customers who must meet a wide array of regulatory requirements.</p>
+        </div>
+        <div class="image-column-right w-col w-col-6">
+          <div class="image-block-right"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+{% endblock %}

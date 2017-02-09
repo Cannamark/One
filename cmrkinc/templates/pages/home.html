@@ -1,1 +1,51 @@
-{% extends "base.html" %}
+{% extends "index.html" %}
+
+{% block content %}
+<div class="hero-slider-section">
+    <div class="container hero-container w-container">
+      <div class="hero-slider w-slider">
+        <div class="w-slider-mask">
+          <div class="hero-portfolio-slide w-slide">
+            <div class="in-slider overall-video-lightbox w-inline-block w-lightbox" data-ix="fade-in-on-load-3" href="#">
+              <div class="slider video-lightbox-image-block">
+                <video width="100%" height="100%" autoplay="true">
+                  <source src="../static/videos/CMRK-Promo-Video-1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-slider-content-block">
+              <h1 class="hero-slider-title" data-ix="slide-title">Water Soluble Cannabinoid Powder</h1>
+              <p class="hero-slider-text" data-ix="slide-title-2">Our patent pending process enables manufacturing of cold water soluble cannabinoid powder. Interested in utilizing our process? Looking to purchase infused powder? Use the buttons below.</p><a class="button outline slider-button w-button" id="helper_purchase" href="https://oleolife.com">Purchase</a>
+              <a class="button outline slider-button w-button" id="helper_tech" href="{% url 'technology' %}">Manufacture</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="_2-column-pricing section tint">
+    <div class="container w-container">
+      <div class="w-row">
+        <!-- <div class="image-block-column-left w-col w-col-6 w-col-stack">
+          <div class="image-block">
+            <div class="image-block-description">We have over 25 years experience.</div>
+          </div>
+        </div> -->
+        <div class="text-column-left w-col w-col-6 border-right">
+          <div class="full info section-title-wrapper">
+            <h2 class="section-title">Cannamark Inc.</h2>
+          </div>
+          <p>We are a team of passionate people whose goal is to improve the edible manufacturing in ways that help make safer, cleaner, and better products for the consumer. Our subsidiaries manufacture 'Infused Powder' using our patent pending infusion process in tangent with our proprietary co-polymer. This Infused powder is in turn sold to edible manufacturers. Our Infused Powder products are designed to help maximize your company's potential while providing the consumer with a quality product at low cost.</p>
+        </div>
+        <div class="overall-text-column w-col w-col-3 w-col-stack">
+          <a href="/"><div class="small-column-title">Cannamark Technology&nbsp;</div></a>
+          <p>Our subsidiaries are currently located in Washington. These facilities manufacture Infused Powder which can then be sold to other legally operating facilities in the state. <br><br>If you would like to begin the application process of forming a subsidiary – <a href="{% url 'technology'%}" style="color:blue;">start here.</a></p>
+        </div>
+        <div class="overall-text-column w-col w-col-3 w-col-stack">
+          <a href="/"><div class="small-column-title">Infused Powder&nbsp;</div></a>
+          <p>Infused Powder streamlines product development, efficiency, automation, and company growth. Now you can consistently, and accurately dose large batches of product. Start taking advantage of all of the benefits of switching to Infused Powder. <br><br>If you’d like to learn more about using Infused Powder – <a href="{% url 'powder' %}" style="color:blue;">look here.</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
