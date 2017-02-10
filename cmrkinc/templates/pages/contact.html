@@ -4,14 +4,15 @@
   <div class="contact-1 subpage-header">
     <div class="container w-container">
       <div class="w-form white-contact-form" data-ix="fade-in-on-load-2">
-        <form data-name="Email Form 1" id="wf-form-Email-Form-2" name="wf-form-Email-Form-1">
+        <form action="{% url 'send_email' %}" method="POST" id="wf-form-Email-Form-2" name="wf-form-Email-Form-1">
+          {% csrf_token %}
           <h2 class="form-title">Have a question? Interested in the Oleo Binder or Infused Powder? Contact us now!</h2>
           <label class="field-label" for="name-2">Name:</label>
-          <input class="field rounded w-input" data-name="Name 2" id="name-2" maxlength="256" name="name" type="text">
+          <input class="field rounded w-input" data-name="name" id="name" maxlength="256" name="name" required="required" type="text">
           <label class="field-label" for="Email-3">Email address:</label>
-          <input class="field rounded w-input" data-name="Email" id="Email-3" maxlength="256" name="Email" required="required" type="email">
+          <input class="field rounded w-input" data-name="email" id="email" maxlength="256" name="email" required="required" type="email">
           <label class="field-label" for="Message">Your message:</label>
-          <textarea class="area field rounded w-input" data-name="Message" id="Message" maxlength="5000" name="Message"></textarea>
+          <textarea class="area field rounded w-input" data-name="message" id="message" maxlength="5000" name="message"></textarea>
           <input class="button w-button" data-wait="Please wait..." type="submit" value="Send Email">
         </form>
         <div class="success-message w-form-done">

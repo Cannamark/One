@@ -8,10 +8,16 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 from django.views import defaults as default_views
 
+from cmrkinc.views import send_email
+
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name='pages/home.html'), name='home'),
     url(r'^about/$', TemplateView.as_view(template_name='pages/about.html'), name='about'),
-
+    url(r'^affiliates/$', TemplateView.as_view(template_name='pages/affiliates.html'), name='affiliates'),
+    url(r'^technology/$', TemplateView.as_view(template_name='pages/technology.html'), name='technology'),
+    url(r'^contact/$', TemplateView.as_view(template_name='pages/contact.html'), name='contact'),
+    url(r'^careers/$', TemplateView.as_view(template_name='pages/careers.html'), name='careers'),
+    url(r'^contact/send', send_email, name='send_email'),
     # Django Admin, use {% url 'admin:index' %}
     url(settings.ADMIN_URL, admin.site.urls),
 
