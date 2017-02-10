@@ -6,6 +6,13 @@
       <div class="w-form white-contact-form" data-ix="fade-in-on-load-2">
         <form action="{% url 'send_email' %}" method="POST" id="wf-form-Email-Form-2" name="wf-form-Email-Form-1">
           {% csrf_token %}
+          {% if messages %}
+          <ul class="messages">
+              {% for message in messages %}
+              <li {% if message.tags %} class="{{ message.tags }}" {% endif %} style="list-style-type: none; font-size:medium; color:green;">{{ message }}</li>
+              {% endfor %}
+          </ul>
+          {% endif %}
           <h2 class="form-title">Have a question? Interested in the Oleo Binder or Infused Powder? Contact us now!</h2>
           <label class="field-label" for="name-2">Name:</label>
           <input class="field rounded w-input" data-name="name" id="name" maxlength="256" name="name" required="required" type="text">
