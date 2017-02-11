@@ -2288,15 +2288,11 @@ figcaption {
   width: 100%;
   height: 100%;
   border-radius: 4px;
-  /*background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../static/images/video-screen-shot.png');*/
-  /*background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../static/images/video-screen-shot.png');*/
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
 
 .video-lightbox-image-block.hero {
-  /*background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));*/
-  /*background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));*/
   text-align: center;
 }
 
@@ -2307,8 +2303,6 @@ figcaption {
 }
 
 .video-lightbox-image-block.slider {
-  /*background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/video-screen-shot.png');*/
-  /*background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/video-screen-shot.png');*/
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
