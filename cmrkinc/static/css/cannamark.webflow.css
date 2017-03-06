@@ -2606,7 +2606,7 @@ figcaption {
   height: 100px;
   margin-right: 15px;
   margin-left: 15px;
-  padding-top: 23px;
+  padding-top: 39px;
   padding-right: 12px;
   padding-left: 10px;
   border: 0px solid transparent;
@@ -2621,6 +2621,10 @@ figcaption {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+}
+
+.process-tab-button.special {
+  padding-top: 26px;
 }
 
 .process-tab-button:hover {
@@ -7209,12 +7213,12 @@ html.w-mod-js *[data-ix="fade-in-on-load-5"] {
     margin-top: 19px;
     margin-right: 4px;
     margin-left: 4px;
-    padding-top: 18px;
+    padding-top: 26px;
     border-width: 1px;
     border-color: rgba(0, 0, 0, .1);
   }
   .process-tab-button.special {
-    padding-top: 12px;
+    padding-top: 19px;
   }
   .process-tab-icon {
     height: 13px;
