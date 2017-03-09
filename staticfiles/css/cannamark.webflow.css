@@ -1758,12 +1758,6 @@ figcaption {
   background-size: cover;
 }
 
-.image-hero.busines-2 {
-  background-image: url('../images/15304071802_84fefb786f_o.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
 .image-hero.download {
   padding-top: 190px;
   padding-bottom: 120px;
@@ -2288,15 +2282,11 @@ figcaption {
   width: 100%;
   height: 100%;
   border-radius: 4px;
-  /*background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../static/images/video-screen-shot.png');*/
-  /*background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../static/images/video-screen-shot.png');*/
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
 
 .video-lightbox-image-block.hero {
-  /*background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));*/
-  /*background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));*/
   text-align: center;
 }
 
@@ -2307,8 +2297,6 @@ figcaption {
 }
 
 .video-lightbox-image-block.slider {
-  /*background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/video-screen-shot.png');*/
-  /*background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url('../images/video-screen-shot.png');*/
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -2612,7 +2600,7 @@ figcaption {
   height: 100px;
   margin-right: 15px;
   margin-left: 15px;
-  padding-top: 23px;
+  padding-top: 39px;
   padding-right: 12px;
   padding-left: 10px;
   border: 0px solid transparent;
@@ -2627,6 +2615,10 @@ figcaption {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+}
+
+.process-tab-button.special {
+  padding-top: 26px;
 }
 
 .process-tab-button:hover {
@@ -3073,15 +3065,6 @@ figcaption {
 
 .checkbox:hover {
   color: #1f6fff;
-}
-
-.start-hero {
-  padding-top: 205px;
-  padding-bottom: 215px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/15304071802_84fefb786f_o.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/15304071802_84fefb786f_o.jpg');
-  background-position: 0px 0px, 50% 27%;
-  background-size: auto, cover;
 }
 
 .hero-main-title {
@@ -6150,7 +6133,7 @@ html.w-mod-js *[data-ix="fade-in-on-load-5"] {
     height: 80px;
     margin-right: 9px;
     margin-left: 9px;
-    font-size: 9px;
+    font-size: 8px;
     line-height: 12px;
   }
   .process-tab-icon {
@@ -7215,9 +7198,12 @@ html.w-mod-js *[data-ix="fade-in-on-load-5"] {
     margin-top: 19px;
     margin-right: 4px;
     margin-left: 4px;
-    padding-top: 18px;
+    padding-top: 26px;
     border-width: 1px;
     border-color: rgba(0, 0, 0, .1);
+  }
+  .process-tab-button.special {
+    padding-top: 19px;
   }
   .process-tab-icon {
     height: 13px;
@@ -7511,7 +7497,16 @@ html.w-mod-js *[data-ix="fade-in-on-load-5"] {
     line-height: 22px;
   }
   .image-block-right {
-    height: 140px;
+    height: 400px;
+  }
+  .image-block-right {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  background-image: url('/static/images/Logo_Cannamark_1280px.png');
+  background-position: 50% 50%;
+  background-size: 200px;
+  background-repeat: no-repeat;
   }
   .text-column-left {
     text-align: center;
