@@ -6202,7 +6202,7 @@ html.w-mod-js *[data-ix="fade-in-on-load-5"] {
     line-height: 31px;
   }
   .hero-slider-section {
-    padding: 90px 0px 25px;
+    padding: 90px 0px 0px;
   }
   .hero-left-block {
     width: 100%;
