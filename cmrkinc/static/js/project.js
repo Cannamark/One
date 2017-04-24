@@ -22,11 +22,9 @@ $('.form-group').removeClass('row');
 
 $(document).ready(function(){
     $("#helper_purchase").click(function(){
-        console.log("here");
-        window.location = 'http://oleolife.com';
+        window.open('http://shop.oleolife.com', '_blank');
     });
     $("#helper_tech").click(function(){
-        console.log("here");
         window.location = 'technology';
     });
 })
