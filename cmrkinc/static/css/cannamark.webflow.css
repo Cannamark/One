@@ -219,6 +219,12 @@ figcaption {
   color: #fff;
 }
 
+.blueborder {
+  border-color: #1f6fff;
+  border-width: 1px;
+  border-style: solid;
+}
+
 .dropdown-list.w--open {
   overflow: hidden;
   margin-top: 10px;
