@@ -1,8 +1,3 @@
-cmrkinc
-=======
-
-Cannamark's corporate site
-
 
 :License: MIT
 
